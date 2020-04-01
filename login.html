@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<meta http-equiv="content-type" content="text/html;charset=utf-8" />
+<head>
+
+  <title>
+   Login
+  </title>
+  
+
+  <!--     Fonts and icons     -->
+  <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:400,700|Material+Icons" />
+  <link rel="stylesheet" href="../../../../maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css">
+  <!-- CSS Files -->
+  <link href="assets/css/material-dashboard.min1c51.css?v=2.1.2" rel="stylesheet" />
+ 
+
+<body class="off-canvas-sidebar">
+  <!-- Extra details for Live View on GitHub Pages -->
+  <!-- Google Tag Manager (noscript) -->
+  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NKDMSK6" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+  <!-- End Google Tag Manager (noscript) -->
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-transparent navbar-absolute fixed-top text-white">
+    <div class="container">
+      <div class="navbar-wrapper">
+        <a class="navbar-brand" href="javascript:;">Login Page</a>
+      </div>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" aria-controls="navigation-index" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="navbar-toggler-icon icon-bar"></span>
+        <span class="navbar-toggler-icon icon-bar"></span>
+        <span class="navbar-toggler-icon icon-bar"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end">
+        <ul class="navbar-nav">
+          <li class="nav-item ">
+            <a href="examples/pages/register.html" class="nav-link">
+              <i class="material-icons">person_add</i>
+              Register
+            </a>
+          </li>
+          <li class="nav-item  active ">
+            <a href="login.html" class="nav-link">
+              <i class="material-icons">fingerprint</i>
+              Login
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- End Navbar -->
+  <div class="wrapper wrapper-full-page">
+    <div class="page-header login-page header-filter" filter-color="black" style="background-image: url('assets/img/photo0.jpg'); background-size: cover; background-position: top center;">
+     
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4 col-md-6 col-sm-8 ml-auto mr-auto">
+            <form class="form" method="" action="#">
+              <div class="card card-login card-hidden">
+                <div class="card-header card-header-warning text-center">
+                  <h4 class="card-title">Login</h4>
+                  <div class="social-line">
+                    <a href="#pablo" class="btn btn-just-icon btn-link btn-white">
+                      <i class="fa fa-facebook-square"></i>
+                    </a>
+                    <a href="#pablo" class="btn btn-just-icon btn-link btn-white">
+                      <i class="fa fa-twitter"></i>
+                    </a>
+                    <a href="#pablo" class="btn btn-just-icon btn-link btn-white">
+                      <i class="fa fa-google-plus"></i>
+                    </a>
+                  </div>
+                </div>
+                <div class="card-body ">
+                  <p class="card-description text-center">Or Be Classical</p>
+                  <span class="bmd-form-group">
+                    <div class="input-group">
+                      <div class="input-group-prepend">
+                        <span class="input-group-text">
+                          <i class="material-icons">face</i>
+                        </span>
+                      </div>
+                      <input type="text" class="form-control" placeholder="Login...">
+                    </div>
+                  </span>
+                  <span class="bmd-form-group">
+                    <div class="input-group">
+                      
+                  </span>
+                  <span class="bmd-form-group">
+                    <div class="input-group">
+                      <div class="input-group-prepend">
+                        <span class="input-group-text">
+                          <i class="material-icons">lock_outline</i>
+                        </span>
+                      </div>
+                      <input type="password" class="form-control" placeholder="Password...">
+                    </div>
+                  </span>
+                </div>
+                <div class="card-footer justify-content-center">
+                  <a href="examples/pages/index.html" class="btn btn-rose btn-link btn-lg">Lets Go</a>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+      <footer class="footer">
+       
+      </footer>
+    </div>
+  </div>
+  <!--   Core JS Files   -->
+ <script src="assets/js/core/jquery.min.js"></script>
+ 
+  <!-- Control Center for Material Dashboard: parallax effects, scripts for the example pages etc -->
+ <script src="assets/js/material-dashboard.min1c51.js?v=2.1.2" type="text/javascript"></script>
+  
+
+  
+  <script>
+    $(document).ready(function() {
+      md.checkFullPageBackgroundImage();
+      setTimeout(function() {
+        // after 1000 ms we add the class animated to the login/register card
+        $('.card').removeClass('card-hidden');
+      }, 700);
+    });
+  </script>
+</body>
+
+
+</html>
